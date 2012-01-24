@@ -1,4 +1,12 @@
 =CHANGE LOG
+=====1.0.2 -- 2012/01/24
+- Reinstated support for Rails 2.x (now works on both Rails 2 and 3)
+- Switched to use .gemspec file for build rather than Rakefile
+- Fixed indentation
+
+=====1.0.1 -- 2011/08/31
+- Added support for Rails 3.1.0
+- Fixed indentation to match standard ruby guidelines
 
 =====0.2.0 -- 2010/12/02
 - Added support for Rails 3.0.3
