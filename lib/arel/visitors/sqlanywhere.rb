@@ -41,7 +41,7 @@ module Arel
       end
 
       def fetch_limit(o)
-        if o.limit.expr && o.limit.expr.expr
+        if o.limit && o.limit.expr && o.limit.expr.expr
           limit = o.limit.expr.expr
         else
           limit = 100000
