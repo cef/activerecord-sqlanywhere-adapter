@@ -549,7 +549,7 @@ module ActiveRecord
         else
           keys = result.first.keys
         end
-        ActiveRecord::Result.new(keys, record.collect { |r| r.values })
+        ActiveRecord::Result.new(keys, result.collect { |r| r.values })
       end
 
       def connect!
